@@ -1,4 +1,4 @@
-package com.tests.jecht.transitionstest;
+package com.tests.jecht.transitionssample;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

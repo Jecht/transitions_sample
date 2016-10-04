@@ -1,9 +1,8 @@
-package com.tests.jecht.transitionstest;
+package com.tests.jecht.transitionssample;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageView;
 
 public class SecondaryActivity extends AppCompatActivity {
 
@@ -12,9 +11,9 @@ public class SecondaryActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_secondary);
+        setContentView(com.tests.jecht.transitionssample.R.layout.activity_secondary);
 
-        mView = findViewById(R.id.secondary_view);
+        mView = findViewById(com.tests.jecht.transitionssample.R.id.secondary_view);
 
     }
 }

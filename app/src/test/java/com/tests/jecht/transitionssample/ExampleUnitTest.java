@@ -1,4 +1,4 @@
-package com.tests.jecht.transitionstest;
+package com.tests.jecht.transitionssample;
 
 import org.junit.Test;
 

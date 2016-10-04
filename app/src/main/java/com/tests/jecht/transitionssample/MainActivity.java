@@ -1,4 +1,4 @@
-package com.tests.jecht.transitionstest;
+package com.tests.jecht.transitionssample;
 
 import android.content.Intent;
 import android.support.v4.app.ActivityOptionsCompat;
@@ -14,14 +14,14 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(com.tests.jecht.transitionssample.R.layout.activity_main);
 
-        mView = findViewById(R.id.main_view);
+        mView = findViewById(com.tests.jecht.transitionssample.R.id.main_view);
     }
 
     public void openSecondActivity(View view) {
         Intent i = new Intent(this, SecondaryActivity.class);
-        Pair<View, String> pair = Pair.create(mView, getString(R.string.transition_name));
+        Pair<View, String> pair = Pair.create(mView, getString(com.tests.jecht.transitionssample.R.string.transition_name));
         ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(this, pair);
         startActivity(i, options.toBundle());
     }

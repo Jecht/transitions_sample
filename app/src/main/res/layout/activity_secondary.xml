@@ -4,7 +4,7 @@
     android:id="@+id/activity_secondary"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.tests.jecht.transitionstest.SecondaryActivity">
+    tools:context="com.tests.jecht.transitionssample.SecondaryActivity">
 
     <View
         android:id="@+id/secondary_view"
